@@ -1,0 +1,86 @@
+<!DOCTYPE HTML>
+
+<html lang="en">
+<head><title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap-table/1.11.0/bootstrap-table.min.css" />
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap-treeview/1.2.0/bootstrap-treeview.min.css" />
+    <link rel="stylesheet" href="//cdn.bootcss.com/jquery-treegrid/0.2.0/css/jquery.treegrid.min.css" />
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="//cdn.bootcss.com/ionicons/2.0.1/css/ionicons.min.css" />
+    <link rel="stylesheet" href="/static/assets/adminlte-2.3.7/css/AdminLTE.min.css" />
+    <link rel="stylesheet" href="/static/assets/adminlte-2.3.7/css/skins/_all-skins.min.css" />
+    <link rel="stylesheet" href="/static/css/app.css" />
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+        body{
+            background:transparent;
+        }
+    </style>
+</head>
+<body>
+<section class="content">
+    <div class="row">
+        <div class="col-md-6 col-md-offset-3">
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <h3 class="box-title">管理员修改</h3>
+                </div>
+                <div class="box-body">
+                    <form class="form-horizontal js-ajax-form" action="/console/admin/save" method="post">
+                        <input type="hidden" name="uid" id="uid" value="1e67f167d99c43f897ec6566043ad6ec" />
+                        <input type="hidden" name="createdAt" value="2016-12-07 13:24:17.0" />
+                        <input type="hidden" name="updatedAt" value="2017-11-16 17:06:55" />
+                        <input type="hidden" name="isSystem" value="0" />
+                        <div class="form-group">
+                            <label for="username" class="col-sm-2 control-label">关键词</label>
+                            <div class="col-sm-10">
+                                <input type="text" name="username" class="form-control" id="username" value="共产党" />
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password" class="col-sm-2 control-label">状态</label>
+                            <div class="col-sm-10">
+                                <select name="state" class="form-control" id="state">
+                                    <option value="1" selected="selected">正常</option>
+                                    <option value="0">禁用</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="btn btn-default js-ajax-submit">提交</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div><script type="text/javascript" src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/jquery-migrate/1.4.1/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/bootstrap-table/1.11.1/bootstrap-table.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/bootstrap-table/1.2.0/locale/bootstrap-table-zh-CN.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/jquery-treegrid/0.2.0/js/jquery.treegrid.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/bootstrap-treeview/1.2.0/bootstrap-treeview.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/jquery-validate/1.15.1/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/jquery-validate/1.15.1/additional-methods.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/jquery-validate/1.15.1/localization/messages_zh.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/jquery.form/4.2.0/jquery.form.min.js"></script>
+    <script type="text/javascript" src="//cdn.bootcss.com/layer/3.0.1/layer.min.js"></script>
+    <script type="text/javascript" src="/static/assets/adminlte-2.3.7/js/app.min.js"></script>
+    <script type="text/javascript" src="/static/js/common.js"></script>
+</div>
+</body>
+</html>
+
+
